@@ -46,6 +46,7 @@ button{
     background-color: rgb(66, 129, 2);
     color: aliceblue;
     align-self: center;
+    cursor: pointer;
 }
 #bto-adicionar{
     width: 90px;
@@ -54,6 +55,7 @@ button{
     background-color: rgb(66, 129, 2);
     color: aliceblue;   
     align-self: center;
+    cursor: pointer;
 }
 #bto-cancelar{
     width: 90px;
@@ -62,6 +64,7 @@ button{
     background-color: rgb(189, 6, 6);
     color: aliceblue;
     align-self: center;
+    cursor: pointer;
 }
 h1{
     padding-right: 16px;
