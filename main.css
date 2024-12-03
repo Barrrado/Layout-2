@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    border: 0px;
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    border-bottom: 8px solid rgb(43, 8, 139);
+    background-color: rgb(88, 136, 207);
+}
+#main2{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(192, 194, 226, 0.801);
+    padding-bottom: 16px;
+}
+#link-fotos{
+    position: absolute;
+    padding: 16px;
+    bottom: 0PX;
+    left: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.712);
+    opacity: 0;
+
+}
+#main1{
+    display: flex;
+    flex-direction: row;
+    
+}
+  ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px;
+   
+  }
+
+button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: rgb(66, 129, 2);
+    color: aliceblue;
+    align-self: center;
+}
+#bto-adicionar{
+    width: 90px;
+    height: 25px;
+    border: none;
+    background-color: rgb(66, 129, 2);
+    color: aliceblue;   
+    align-self: center;
+}
+#bto-cancelar{
+    width: 90px;
+    height: 25px;
+    border: none;
+    background-color: rgb(189, 6, 6);
+    color: aliceblue;
+    align-self: center;
+}
+h1{
+    padding-right: 16px;
+    color: aliceblue;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#titulo-form{
+    padding-left: 30px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ ul  li{
+    list-style-type: none;
+    max-width: 30%;
+    max-height: 280px;
+    position: relative;
+    overflow: hidden;
+}
+ul li img{
+    width: 100%;
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+ul li:hover #link-fotos{
+    opacity: 1;
+    transition-duration: 0.5s;
+}
